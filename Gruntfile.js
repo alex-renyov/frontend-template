@@ -26,5 +26,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-bower-concat');
 
-  grunt.registerTask('default', [/*'concat'*/, 'bower_concat', 'uglify']);
+  grunt.registerTask('default', [/*'concat',*/ 'bower_concat', 'uglify']);
 };
