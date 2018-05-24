@@ -11,13 +11,13 @@ module.exports = function(grunt) {
     },
     bower_concat: {
       all: {
-        dest: 'Scripts/lib.js'
+        dest: 'Scripts/libs.js'
       }
     },
     uglify: {
       bower: {
         files: {
-          'Scripts/lib.min.js': 'Scripts/lib.js'
+          'Scripts/libs.min.js': 'Scripts/libs.js'
         }
       },
       app: {
